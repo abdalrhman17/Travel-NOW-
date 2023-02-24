@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel NOW !</title>
+        <link rel="stylesheet" href="CSS/globalRules.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <header>
+
+            <img src="images/logo.png" alt="logo" >
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Challenge me!</a></li>
+            </ul>
+        </header>
+
+        
+        <div class="main">
+            <div class="info">
+                <div class="text">
+                    <h1>The Amazing World !</h1>
+                    <h2>Where you wanna to go ?</h2>
+                    <p>Choose your destination!</p>
+                </div>
+
+                <div class="place" id="peruInfo" style="display: none">
+                    <h1>Machu Picchu - Peru</h1>
+                    <p>Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter mountain ridge.</p>
+                    <div class="images">
+                        <img src="images/MachuPicchuPeru/1.jpg">
+                        <img src="images/MachuPicchuPeru/2.jpg">
+                        <img src="images/MachuPicchuPeru/3.jpg">
+                    </div>
+                </div>
+
+                <div class="place" id="japanInfo" style="display: none">
+                    <h1>Mount Fuji - Japan</h1>
+                    <p>Mount Fuji or Fugaku, located on the island of Honshū, is the highest mountain in Japan</p>        
+                    <div class="images">
+                        <img src="images/MountFujiJapan/1.jpg">
+                        <img src="images/MountFujiJapan/2.jpg">
+                    </div>
+                </div>
+
+                <div class="place" id="norwayInfo" style="display: none">
+                    <h1>The Lofoten Islands - Norway</h1>
+                    <p>Lofoten has distinctive scenery with dramatic mountains and peaks, open sea and sheltered bays, beaches and untouched lands.</p>
+                    <div class="images">
+                        <img src="images/TheLofotenIslandsNorway/1.jpg">
+                        <img src="images/TheLofotenIslandsNorway/2.jpg">
+                        <img src="images/TheLofotenIslandsNorway/3.jpg">
+                    </div>
+                </div>
+
+                <div class="place" id="zambiaInfo" style="display: none">
+                    <h1>Victoria Falls - Zambia and Zimbabwe</h1>
+                    <p>Victoria Falls is a waterfall on the Zambezi River in southern Africa, It is located on the border between Zambia and Zimbabwe.</p>
+                    <div class="images">
+                        <img src="images/VictoriaFallsZambiaandZimbabwe/1.jpg">
+                        <img src="images/VictoriaFallsZambiaandZimbabwe/2.png">
+                        <img src="images/VictoriaFallsZambiaandZimbabwe/3.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="places">
+                <div id="peruCard" class="machuPicchu card" style="background-image: url(images/MachuPicchuPeru/1.jpg); background-size: cover">
+                    <h2>Machu Picchu - Peru</h2>
+                </div>
+    
+                <div id="japanCard" class="mountFuji card" style="background-image: url(images/MountFujiJapan/1.jpg); background-size: cover">
+                    <h2>Mount Fuji - Japan</h2>
+                </div>
+    
+                <div id="norwayCard" class="theLofotenIslands card" style="background-image: url(images/TheLofotenIslandsNorway/1.jpg); background-size: cover">
+                    <h2>The Lofoten Islands - Norway</h2>
+                </div>
+    
+                <div id="zambiaCard" class="victoriaFalls card" style="background-image: url(images/VictoriaFallsZambiaandZimbabwe/1.jpg);  background-size: cover">
+                    <h2>Victoria Falls - Zambia and Zimbabwe</h2>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="main.js"></script>
+    </body>
+</html>
